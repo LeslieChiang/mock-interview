@@ -51,4 +51,11 @@ React Native:
 2. How can engines be integrated with React Native?
 3. How do you take into account the difference in screen sizes of mobile phones?
 
+use Dimensions and conditional ternary operator
+```
+import { Dimensions } from 'react-native';
+const windowWidth = Dimensions.get('window').width;
+const windowHeight = Dimensions.get('window').height;
+```
+
 
